@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>yuva-app</title>
+    <meta name="theme-color" content="#ffb628">
+    <%- include('include/links.ejs') %>
+
+</head>
+
+<body>
+    <div class="d-flex justify-content-end"><img src="../public/assets/img/bg-yuva1.svg"></div>
+    <div style="text-align: center;"><img src="../public/assets/img/illuverify.svg" width="156" height="136"></div>
+    <h1 class="text-center" style="color: #292929;text-align: center;-webkit-text-stroke-width: 6.815278053283691;-webkit-text-stroke-color: #FFF;font-family: &quot;Google Sans&quot;;font-size: 32px;font-style: normal;font-weight: 500;line-height: normal;">Verify Your Profile</h1>
+    <div class="card page-card" style="border-style: none;">
+        <div class="card-body">
+            <h1 style="color: #000;font-family: Lato;font-size: 17px;font-style: normal;font-weight: 600;/*line-height: normal;*/text-align: center;">Upload Your Required Document</h1>
+            <p style="color: #626262;text-align: center;font-family: Lato;font-size: 10px;font-style: normal;font-weight: 500;line-height: normal;">You can Upload&nbsp;Your College ID / Govt ID / Or Employee ID</p>
+            <div>
+                <form>
+                    <div class="row input-field-group">
+                        <div class="col d-grid" style="margin: 7px;"><label class="form-label form-label-page" style="text-align: center;" for="file-veri"><img src="../public/assets/img/verify.svg" for=""></label><input class="form-control" type="file" id="file-veri" style="visibility: hidden;">
+                            <hr>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="mx-auto my-3" style="width: fit-content;"><button class="btn btn-dark button-page" type="button" style="border-radius: 33.68px;border: 0.746px solid rgba(78, 78, 78, 0.10);background: #000;width: 113.625px;">Submit</button></div>
+            <p style="color: #676767;text-align: center;font-family: &quot;Google Sans&quot;;font-size: 10.94px;font-style: normal;font-weight: 400;line-height: normal;">&nbsp;<span style="color: #FFB627;font-family: &quot;Google Sans&quot;;font-size: 10.94px;font-style: normal;font-weight: 700;line-height: normal;">Skip</span></p>
+        </div>
+    </div>
+    <div><img class="fixed-bottom" width="198" height="188" src="../public/assets/img/bg-yuva2.svg"></div>
+    <%- include('include/scripts.ejs') %>
+</body>
+
+</html>

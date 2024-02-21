@@ -1,0 +1,46 @@
+.logo-yuva {
+  height: 38px;
+}
+
+.form-label-page {
+  color: #000;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: "Google Sans";
+  font-size: 12.94px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form-input-page {
+  border-radius: 17px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: #FFF;
+  /*width: 252px;*/
+  height: 45px;
+  flex-shrink: 0;
+}
+
+.bottom-page-nav {
+  border-radius: 20px 20px 0px 0px;
+  background: #000;
+}
+
+.nav-link-page {
+  color: #FFF;
+  text-align: center;
+  font-family: "Google Sans Display";
+  font-size: 14.6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.yuva-nav-logo {
+  height: 41px;
+}
+
+.card-job {
+}
+
